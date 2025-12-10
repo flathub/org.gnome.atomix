@@ -1,15 +1,14 @@
-From 0b414030e3e69f789595028ff2803d5afc5a7894 Mon Sep 17 00:00:00 2001
+From 5e502f405a18af2a71002ce7b250ebb08e790ba0 Mon Sep 17 00:00:00 2001
 From: Sabri Ünal <yakushabb@gmail.com>
-Date: Sat, 4 May 2024 10:15:12 +0300
-Subject: [PATCH] Update org.gnome.atomix runtime to 46
+Date: Wed, 10 Dec 2025 15:12:46 +0300
+Subject: [PATCH] Fix metainfo papercuts
 
-- Also update atomix to version 44
 ---
- data/atomix.appdata.xml.in | 69 ++++++++++++++++-----------------------------------------------------
- 1 file changed, 16 insertions(+), 53 deletions(-)
+ data/atomix.appdata.xml.in | 71 +++++++++++++++++------------------------------------------------------
+ 1 file changed, 17 insertions(+), 54 deletions(-)
 
 diff --git a/data/atomix.appdata.xml.in b/data/atomix.appdata.xml.in
-index bc7e124..b5538a2 100644
+index bc7e124..0c29e3a 100644
 --- a/data/atomix.appdata.xml.in
 +++ b/data/atomix.appdata.xml.in
 @@ -1,6 +1,6 @@
@@ -20,7 +19,13 @@ index bc7e124..b5538a2 100644
    <id>atomix.desktop</id>
    <metadata_license>CC0-1.0</metadata_license>
    <project_license>GPL-2.0+</project_license>
-@@ -25,68 +25,31 @@
+@@ -20,73 +20,36 @@
+   </description>
+   <screenshots>
+     <screenshot height="557" width="686" type="default">
+-      <image>https://wiki.gnome.org/Apps/Atomix?action=AttachFile&amp;do=get&amp;target=atomix-screenshot.png</image>
++      <image>https://wiki.gnome.org/attachments/Apps(2f)Atomix/atomix-screenshot.png</image>
+     </screenshot>
    </screenshots>
    <url type="homepage">https://wiki.gnome.org/Apps/Atomix</url>
    <url type="bugtracker">https://gitlab.gnome.org/GNOME/atomix/issues/new?issue</url>
