@@ -1,6 +1,6 @@
 app-id: org.gnome.atomix
 runtime: org.gnome.Platform
-runtime-version: '46'
+runtime-version: '49'
 sdk: org.gnome.Sdk
 command: atomix
 rename-icon: atomix
