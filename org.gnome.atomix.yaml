@@ -1,9 +1,10 @@
 app-id: org.gnome.atomix
 runtime: org.gnome.Platform
-runtime-version: '50'
+runtime-version: '51'
 sdk: org.gnome.Sdk
 command: atomix
 rename-icon: atomix
+copy-icon: true
 rename-desktop-file: atomix.desktop
 rename-appdata-file: atomix.appdata.xml
 finish-args:
